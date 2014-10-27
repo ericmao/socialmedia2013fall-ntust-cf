@@ -34,6 +34,7 @@ public class App
         List<RecommendedItem> recommendations = recommender.recommend(2, 3);
         for (RecommendedItem recommendation : recommendations) {
           System.out.println(recommendation);
+          System.out.println("----final----");
         }
     }
 }
